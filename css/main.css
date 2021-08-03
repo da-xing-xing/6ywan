@@ -1954,7 +1954,7 @@ pre.prettyprint.linenums ol li {
 
 @media (max-width: 640px) {
 	.container{margin: 0;}
-	body{padding-top:0;}
+	body{padding-top:0px;}
 	.header{padding: 15px 0;height: 48px;border-bottom: none;box-shadow: 0 1px 5px rgba(0,0,0,0.05);}
 	.logo a{height: 20px;}
 	.logo img{height: 100%;}
@@ -2293,7 +2293,7 @@ pre.prettyprint.linenums ol li {
 }
 @media (max-width: 1240px){
 	#container{
-		margin: 0 15px;
+		margin: 0 5px;
 	}
 }
 
