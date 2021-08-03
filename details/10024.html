@@ -12,7 +12,7 @@
 <meta content="yes" name="apple-mobile-web-app-capable">
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta content="telephone=no" name="format-detection">
-<link rel="apple-touch-icon-precomposed" href="../images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="../favicon.ico">
 <script>
 var logined = 0
 </script>
@@ -23,7 +23,7 @@ var logined = 0
 		<div class="wrap">
 			<i class="menu_back"><a href="/"></a></i>
 			<div class="title">
-				<span class="title_d"><p>【村长谈灰产】7个不起眼的偏门项目：一万块本钱一天赚500！</p></span>
+				<span class="title_d"><p>7个不起眼的偏门项目：一万块本钱一天赚500！</p></span>
 				<div class="clear"></div>
 			</div>
 		</div>
@@ -81,11 +81,11 @@ var logined = 0
 				<div class="more_about">
 					<table width="100%" border="0" cellspacing="5">
 						<tr>
-														<td><a target="_blank" href="https://www.9gyou.com/details/10028.html"><img src="../images/3c64f45b00a03fa-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10061.html"><img src="../images/24410ee2c2235e3-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10018.html"><img src="../images/072124cc728337d-220x150.jpg" /></a></td>
-															<td><a target="_blank" href=""><img src="" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10057.html"><img src="../images/2c908261c3ffd80-220x150.jpg" /></a></td>
+														<td><a target="_blank" href="https://www.9gyou.com/details/10008.html"><img src="../images/d31f8c9af5873c4-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10041.html"><img src="../images/9e329a71b9f5335-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10003.html"><img src="../images/011dd983b4a3591-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10006.html"><img src="../images/e45d457e373528b-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10047.html"><img src="../images/aa6977547cbf2e0-1-220x150.jpg" /></a></td>
 													</tr>
 					</table>
 				</div>
@@ -93,37 +93,38 @@ var logined = 0
 		</div>
 	</div>
 
-	<div id="us_panel_menu">
-		<div class="us_panel_msk"></div>
-		<div class="us_panel_menu_t">
-			<table width="100%" cellspacing="0">
-				<tr>
-					<td valign="top" class="us_panel_menu_index">
-						<a href="/"><i></i><span>首页</span></a>
-					</td>
-					<td valign="top" class="us_panel_menu_designer">
-						<a href="#"><i></i><span>设计师</span></a>
-					</td>
-					<td valign="top" class="us_panel_menu_help">
-						<a href="#"><i></i><span>帮帮忙</span></a>
-					</td>
-					<td valign="top" class="us_panel_menu_about">
-						<a href="#"><i></i><span>关于</span></a>
-					</td>
-				</tr>
-			</table>
+	<div id="reg_index">
+		<div class="reg_bar">
+			<div class="wrap">
+				<span class="fl"><i></i>注册帐号</span>
+				<i class="reg_bar_close fr"></i>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="wrap reg_ct">
+			<p>您可以选择以下方式联系我<br />点击直撩</p>
+			<a href="tencent://message/?uin=248728219&Site=https://www.9gyou.com/&Menu=yes" id="qq_connect"><span><i></i>QQ</span></a>
 		</div>
 	</div>
+
 
 	<div id="us_panel2">
 		<table width="100%" height="100%" cellspacing="0" border="0">
 			<tr>
-				<td class="us_panel_menu"><div class="arrow_top"></div><i></i><div class="us_panel_menu_left"></div><div class="us_panel_menu_right"></div></td>
+				<td class="us_panel_like"><a href="/"><i></i><span>首页</span></a></td>
+				<td class="us_panel_post"><i></i><span>联系</span></td>
 			</tr>
 		</table>
 	</div>
+
 	<script language="javascript" src="../js/zepto.min.js"></script>
 	<script language="javascript" src="../js/script.js"></script>
-
+	<script type="text/javascript">
+		$(function(){
+			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) ) {
+				document.getElementById("qq_connect").href = "mqqwpa://im/chat?chat_type=wpa&uin=248728219&version=1&src_type=web&web_src=oicqzone.com";
+			}
+		})
+	</script>
 </body>
 </html>
