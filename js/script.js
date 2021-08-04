@@ -65,13 +65,13 @@ $('#container').bind('scroll',function(){
                 res.next  || $("#page-index-next").val(0);
                 scLock=res.next;
             }else{
-                $('.list_loading').html('<span>已经触碰的底线了!</span>');
+                $('.list_loading').html('<span>已经触碰到底线了!</span>');
             }
             tcst();
             $('.alist').openNewFrame();
         });
     }else {
-        $('.list_loading').html('<span>已经触碰的底线了!</span>');
+        $('.list_loading').html('<span>已经触碰到底线了!</span>');
         tcst();
         $('.alist').openNewFrame();
     }
