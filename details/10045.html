@@ -37,17 +37,17 @@ var logined = 0
 					<div class="list_info_i" style="margin-top:5px;">
 						<dl class="list_info_views">
 							<dt></dt>
-							<dd>4000</dd>
+							<dd>6790</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_comment">
 							<dt></dt>
-							<dd>9</dd>
+							<dd>1</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_like">
 							<dt></dt>
-							<dd>20</dd>
+							<dd>15</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="works_view">
@@ -59,8 +59,8 @@ var logined = 0
 					</div>
 
 					<!---正文---->
-			<article class="article-content">
-				
+					<article class="article-content">
+						
 									<p>村长发现一个比较有发展潜力的偏门项目，那就是顺路代驾，我们都知道顺风车，但是顺路代驾你知道吗？</p>
 <p>一般的代驾费用都很高，比如酒后代驾，费用就很高，可能十几里地，就要大几十块钱，但是顺路代驾费用就低了，甚至不需要再交代驾费用了！</p>
 <p>顺路代驾主要针对一些有车的人群，又不想自己开车，又不想花钱找专业的代驾人员，就是谁顺路给开一下车的事情，说白了就是帮下忙的事情，针对那些有本没车，或者顺路正好想的没事。</p>
@@ -76,7 +76,8 @@ var logined = 0
 <p>所以，顺路代驾是一个不错的选择，反正中国这么多人，去哪个地方的都有，你去的地方可能有很多人要去，在一群人中，只要有一个当司机既可以了。</p>
 <p>费用也不高，甚至不需要花钱，只需要花点油费和饭费就可以了。</p>
 <p>希望，未来尽在实现吧！加油！</p>
-					</article>
+							</article>
+					<div class="orbui-post-footer"><b>PS：</b><strong>版权归原作者所有如有侵权请及时联系我们处理！</strong></div>
 				</div>
 			</div>
 			<!---推荐-->
@@ -85,11 +86,11 @@ var logined = 0
 				<div class="more_about">
 					<table width="100%" border="0" cellspacing="5">
 						<tr>
-														<td><a target="_blank" href=""><img src="" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10018.html"><img src="../images/072124cc728337d-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10021.html"><img src="../images/9698d7e83d99684-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10065.html"><img src="../images/3eab554418a919d-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10067.html"><img src="../images/h329-147x150.jpg" /></a></td>
+														<td><a target="_blank" href="https://www.9gyou.com/details/10039.html"><img src="../images/04472551ecdd7dd-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10063.html"><img src="../images/d91553e90b2b0b9-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10066.html"><img src="../images/c7fd9cfe5255354-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10015.html"><img src="../images/41b8785254650dd-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10047.html"><img src="../images/aa6977547cbf2e0-1-220x150.jpg" /></a></td>
 													</tr>
 					</table>
 				</div>
@@ -108,6 +109,9 @@ var logined = 0
 			<p>您可以选择以下方式联系我<br />点击直撩</p>
 			<a href="tencent://message/?uin=248728219&Site=https://www.9gyou.com/&Menu=yes" id="qq_connect"><span><i></i>QQ</span></a>
 		</div>
+		<div class="wrap reg_ct" style="margin:20% auto">
+			<img src="../images/wx_qrcode.jpg" />
+		</div>
 	</div>
 
 
@@ -115,17 +119,18 @@ var logined = 0
 		<table width="100%" height="100%" cellspacing="0" border="0">
 			<tr>
 				<td class="us_panel_like"><a href="/"><i></i><span>首页</span></a></td>
-				<td class="us_panel_post"><i></i><span>联系</span></td>
+				<td class="us_panel_post"><i></i><span>联系我们</span></td>
 			</tr>
 		</table>
 	</div>
-
 	<script language="javascript" src="../js/zepto.min.js"></script>
-	<script language="javascript" src="../js/script.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) ) {
 				document.getElementById("qq_connect").href = "mqqwpa://im/chat?chat_type=wpa&uin=248728219&version=1&src_type=web&web_src=oicqzone.com";
+				$("#more_about td").each(function (i) {
+					i >2 && $($("#more_about td")[i]).hide();
+				});
 			}
 		})
 	</script>

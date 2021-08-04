@@ -37,17 +37,17 @@ var logined = 0
 					<div class="list_info_i" style="margin-top:5px;">
 						<dl class="list_info_views">
 							<dt></dt>
-							<dd>4329</dd>
+							<dd>5765</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_comment">
 							<dt></dt>
-							<dd>9</dd>
+							<dd>10</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_like">
 							<dt></dt>
-							<dd>63</dd>
+							<dd>51</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="works_view">
@@ -59,8 +59,8 @@ var logined = 0
 					</div>
 
 					<!---正文---->
-			<article class="article-content">
-				
+					<article class="article-content">
+						
 									<p>有啥偏门可以挣点小钱？眼看马上过年了，我们应该挣点小钱回家过年了，当然，就算赚不到钱，也没事，多少算多呢？能回家就回家吧。</p>
 <p>有啥偏门可以挣点小钱？</p>
 <p><b>第一：宠物绝育</b></p>
@@ -100,7 +100,8 @@ var logined = 0
 <p>比如我们硬核抠门，稿费不高但是收稿门槛很低，没有字数要求，主题范围也比较广，知乎有超过2000关注的问题都可以做题目，适合各种新手。</p>
 <p>找投稿页面一般就在其公众号菜单里，或者APP和网站里，实在找不到可以在公众号回复“投稿”。</p>
 <p>有啥偏门可以挣点小钱？以上5个小项目大家可以去试试，大钱挣不了，应该可以挣点小钱，快过年了，大家准备吧。</p>
-					</article>
+							</article>
+					<div class="orbui-post-footer"><b>PS：</b><strong>版权归原作者所有如有侵权请及时联系我们处理！</strong></div>
 				</div>
 			</div>
 			<!---推荐-->
@@ -109,11 +110,11 @@ var logined = 0
 				<div class="more_about">
 					<table width="100%" border="0" cellspacing="5">
 						<tr>
-														<td><a target="_blank" href="https://www.9gyou.com/details/10026.html"><img src="../images/3abf57916ac5898-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10045.html"><img src="../images/cadb92c9b9f163c-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10005.html"><img src="../images/667ad16f797b259-220x150.png" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10008.html"><img src="../images/d31f8c9af5873c4-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10066.html"><img src="../images/c7fd9cfe5255354-220x150.jpg" /></a></td>
+														<td><a target="_blank" href="https://www.9gyou.com/details/10024.html"><img src="../images/ca9dbf2269dc0be-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10001.html"><img src="../images/673a130b87dd0d2-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10042.html"><img src="../images/97eae75414657fc-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10017.html"><img src="../images/e1dd54ebbd70adb-220x150.jpg" /></a></td>
+															<td><a target="_blank" href=""><img src="" /></a></td>
 													</tr>
 					</table>
 				</div>
@@ -132,6 +133,9 @@ var logined = 0
 			<p>您可以选择以下方式联系我<br />点击直撩</p>
 			<a href="tencent://message/?uin=248728219&Site=https://www.9gyou.com/&Menu=yes" id="qq_connect"><span><i></i>QQ</span></a>
 		</div>
+		<div class="wrap reg_ct" style="margin:20% auto">
+			<img src="../images/wx_qrcode.jpg" />
+		</div>
 	</div>
 
 
@@ -139,17 +143,18 @@ var logined = 0
 		<table width="100%" height="100%" cellspacing="0" border="0">
 			<tr>
 				<td class="us_panel_like"><a href="/"><i></i><span>首页</span></a></td>
-				<td class="us_panel_post"><i></i><span>联系</span></td>
+				<td class="us_panel_post"><i></i><span>联系我们</span></td>
 			</tr>
 		</table>
 	</div>
-
 	<script language="javascript" src="../js/zepto.min.js"></script>
-	<script language="javascript" src="../js/script.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) ) {
 				document.getElementById("qq_connect").href = "mqqwpa://im/chat?chat_type=wpa&uin=248728219&version=1&src_type=web&web_src=oicqzone.com";
+				$("#more_about td").each(function (i) {
+					i >2 && $($("#more_about td")[i]).hide();
+				});
 			}
 		})
 	</script>

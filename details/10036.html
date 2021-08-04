@@ -37,17 +37,17 @@ var logined = 0
 					<div class="list_info_i" style="margin-top:5px;">
 						<dl class="list_info_views">
 							<dt></dt>
-							<dd>1853</dd>
+							<dd>9517</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_comment">
 							<dt></dt>
-							<dd>5</dd>
+							<dd>4</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="list_info_like">
 							<dt></dt>
-							<dd>71</dd>
+							<dd>26</dd>
 							<div class="clear"></div>
 						</dl>
 						<dl class="works_view">
@@ -59,8 +59,8 @@ var logined = 0
 					</div>
 
 					<!---正文---->
-			<article class="article-content">
-				
+					<article class="article-content">
+						
 									<p>村长今年讲一个不起眼的偏门暴利项目，为什么不起眼，大部分这类项目在农村，火车站也会有，但是，确实是一个不起眼的偏门暴利项目，真的很赚钱。</p>
 <p>这个偏门暴利项目就是抽奖，主要针对一些爱占小便宜的人。</p>
 <p>一张桌子上放了一个抽奖箱，里面有抽奖券，抽的奖品有汤盆、汤勺、洗发水3种。老板身后就是奖品，看着质量都还不错。</p>
@@ -91,7 +91,8 @@ var logined = 0
 <div><strong>详情咨询QQ：1501269620，<b>或者加微信：jojoer01。（先体验，满意再决定做！）</b></strong></div>
 <div></div>
 <div><strong>温馨提醒：未成年不准许做</strong></div>
-					</article>
+							</article>
+					<div class="orbui-post-footer"><b>PS：</b><strong>版权归原作者所有如有侵权请及时联系我们处理！</strong></div>
 				</div>
 			</div>
 			<!---推荐-->
@@ -100,11 +101,11 @@ var logined = 0
 				<div class="more_about">
 					<table width="100%" border="0" cellspacing="5">
 						<tr>
-														<td><a target="_blank" href="https://www.9gyou.com/details/10015.html"><img src="../images/41b8785254650dd-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10021.html"><img src="../images/9698d7e83d99684-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10068.html"><img src="../images/20200105181525-220x126.png" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10020.html"><img src="../images/5f835524cf4d1f7-220x150.jpg" /></a></td>
-															<td><a target="_blank" href="https://www.9gyou.com/details/10030.html"><img src="../images/55c9317d2cb5a60-220x150.jpg" /></a></td>
+														<td><a target="_blank" href="https://www.9gyou.com/details/10040.html"><img src="../images/39058fb9c516cab-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10007.html"><img src="../images/06cd54bda38f05c-220x150.png" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10056.html"><img src="../images/de09a2659749c6e-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10025.html"><img src="../images/1f6cb83782ad07c-220x150.jpg" /></a></td>
+															<td><a target="_blank" href="https://www.9gyou.com/details/10016.html"><img src="../images/a1eb8839261317d-220x150.png" /></a></td>
 													</tr>
 					</table>
 				</div>
@@ -123,6 +124,9 @@ var logined = 0
 			<p>您可以选择以下方式联系我<br />点击直撩</p>
 			<a href="tencent://message/?uin=248728219&Site=https://www.9gyou.com/&Menu=yes" id="qq_connect"><span><i></i>QQ</span></a>
 		</div>
+		<div class="wrap reg_ct" style="margin:20% auto">
+			<img src="../images/wx_qrcode.jpg" />
+		</div>
 	</div>
 
 
@@ -130,17 +134,18 @@ var logined = 0
 		<table width="100%" height="100%" cellspacing="0" border="0">
 			<tr>
 				<td class="us_panel_like"><a href="/"><i></i><span>首页</span></a></td>
-				<td class="us_panel_post"><i></i><span>联系</span></td>
+				<td class="us_panel_post"><i></i><span>联系我们</span></td>
 			</tr>
 		</table>
 	</div>
-
 	<script language="javascript" src="../js/zepto.min.js"></script>
-	<script language="javascript" src="../js/script.js"></script>
 	<script type="text/javascript">
 		$(function(){
 			if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) ) {
 				document.getElementById("qq_connect").href = "mqqwpa://im/chat?chat_type=wpa&uin=248728219&version=1&src_type=web&web_src=oicqzone.com";
+				$("#more_about td").each(function (i) {
+					i >2 && $($("#more_about td")[i]).hide();
+				});
 			}
 		})
 	</script>
